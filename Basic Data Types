@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int n;
+    long long_n;
+    char c;
+    float f;
+    double d;
+    scanf("%d %ld %c %f %lf", &n, &long_n, &c, &f, &d);
+    printf("%d\n%ld\n%c\n%f\n%lf", n, long_n, c, f, d);
+    return 0;
+}
